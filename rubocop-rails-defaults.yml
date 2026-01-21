@@ -1,0 +1,8 @@
+Rails/Output:
+  Exclude:
+    - db/seeds.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - config/application.rb
+    - config/environments/*.rb

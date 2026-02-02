@@ -6,3 +6,10 @@ Metrics/BlockLength:
   Exclude:
     - config/application.rb
     - config/environments/*.rb
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/**/*.rb
+
+Rails/DynamicFindBy:
+  Exclude:
+    - app/controllers/passwords_controller.rb
